@@ -8,6 +8,7 @@ http://www.cplusplus.com/forum/windows/64772/
 https://stackoverflow.com/questions/48644697/getting-a-hdc-in-c
 https://cboard.cprogramming.com/cplusplus-programming/54491-hdc-newbie.html
 */
+
 using namespace std;
 
 bool function = false; //helps to get on-off statements of feature.
