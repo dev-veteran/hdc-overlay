@@ -33,8 +33,7 @@ int main()
 		else
 			DrawString(hdc, Font, res.width / 8, res.height / 64, textColor = RGB(255, 0, 0), "Hello, Im Red."); //draws string to hdc with DrawString function.
 
-		//DeleteObject(hdc); //helps to refresh overlay in loop.
-		DeleteDC(hdc);
+		DeleteObject(hdc); //helps to refresh overlay in loop.
 
 		if (key_check(VK_F2, 0)) //if key pressed. -> dispose.
 			break;
